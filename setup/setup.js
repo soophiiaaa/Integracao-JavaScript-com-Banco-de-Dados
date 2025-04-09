@@ -9,18 +9,18 @@ function createTableProducts(con) {
 
     con.query(sqlCreateTable, function (err, results, fields) {
         if (err) {
-            console.error(`Erro ao criar tabela: ${err}`)
+            console.error(`erro ao criar tabela: ${err}`)
             return
         }
-        console.log(`Tabela criada com sucesso!`)
+        console.log(`tabela criada com sucesso!`)
     })
 
     con.end(function (err) {
         if (err) {
-            console.error('Erro ao encerrar conexão: ' + err.stack)
+            console.error('erro ao encerrar conexão: ' + err.stack)
             return
         }
-        console.log('Conexão encerrada.')
+        console.log('conexão encerrada.')
     })
 }
 
