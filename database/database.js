@@ -4,7 +4,7 @@ function connectionFunc() {
     const connection = mysql.createConnection({
         host: 'localhost',
         user: 'root',
-        password: 'slbms20070511',
+        password: 'pass',
         database: 'db'
     }) //configuração padrão do database, adapte de acordo com suas necessidades
 
@@ -18,6 +18,6 @@ function connectionFunc() {
         }
     )
     return connection
-}
+} //conexão com o banco de dados
 
 module.exports = connectionFunc
