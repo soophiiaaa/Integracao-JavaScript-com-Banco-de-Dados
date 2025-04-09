@@ -1,8 +1,8 @@
-### 📁 Projeto: Integração JS com Banco de Dados
+## 📁 Projeto: Integração JS com Banco de Dados
 
 Este repositório demonstra como realizar a conexão entre JavaScript (Node.js) e um banco de dados MySQL, utilizando o pacote `mysql2`.
 
-## Objetivo
+### Objetivo
 
 O principal objetivo deste projeto é entender mais sobre a integração do banco de dados com javascript. A proposta foi sugerida pelo **Professor Ricardo Rubens**, do **Instituto Federal de Alagoas - Campus Maceió**, como parte da matéria de **Programação Orientada a Objetos (POO)**.
 
